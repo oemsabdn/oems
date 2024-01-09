@@ -1,0 +1,537 @@
+/* real */
+:root {
+--was-1f1f1f: #111d2f; 
+--was-333333: #273242;
+--was-3a3a3a: #D3D5D9;
+--was-666666: #454F5D;
+--was-404040: #364150;
+--was-6D6D6D: #5F6773;
+--was-767676: #5f6773;
+--was-999999: #9398A0;
+--was-BBBBBB: #BEC1C6;
+--was-CCCCCC: #c3c6cb;
+--was-DDDDDD: #D3D5D9;
+--was-f2f2f2: #F4F4F6;
+
+/* Golds --> Green */
+--was-a36b0c: #007e6e;
+--was-9a6313: #007e6e;
+--was-d09b1a: #fbcb3b;
+--was-8c6811: #FDA542;
+--was-b98a17: #FDA542;
+--was-B11B1B: #e02d2d;
+}
+
+/* placeholder colours for identifying missing elements in templates */
+/*:root {
+--was-1f1f1f: #111d2f;
+--was-333333: #90c349;
+--was-666666: #f00;
+--was-404040: #f00;
+--was-6D6D6D: #f00;
+--was-767676: #f00;
+--was-999999: #f00;
+--was-BBBBBB: #f00;
+--was-CCCCCC: #fcf;
+--was-DDDDDD: #000;
+--was-f2f2f2: #fcf;
+--was-a36b0c: #f00;
+--was-9a6313: #f00;
+--was-d09b1a: #f00;
+--was-8c6811: #f00;
+--was-b98a17: #f00;
+--was-B11B1B: #fcc;
+--was-90c349: #000;
+--was-0daa55: #000;
+--was-3a3a3a: #000;
+--was-4d4d4d: #000;
+}*/
+
+@media (prefers-color-scheme: dark) {
+	:root {
+	--was-1f1f1f: #111d2f;
+	--was-1a1a1a: #0d1727;
+	--was-333333: #D3D5D9;
+	--was-3a3a3a: #D3D5D9;
+	--was-666666: #BEC1C6;
+	--was-404040: #364150;
+	--was-6D6D6D: #5F6773;
+	--was-767676: #79808A;
+	--was-999999: #9398A0;
+	--was-BBBBBB: #BEC1C6;
+	--was-CCCCCC: #c3c6cb;
+	--was-DDDDDD: #D3D5D9;
+	--was-f2f2f2: #080d15;
+		
+	/* Golds --> Orange */
+	--was-a36b0c: #fbcb3b;
+	--was-9a6313: #fbcb3b;
+	--was-d09b1a: #fbcb3b;
+	--was-8c6811: #FE9944;
+	--was-b98a17: #fbcb3b;
+	--was-B11B1B: #e02d2d;
+	}
+	
+	body {
+		background-color: #020304;
+	}
+	
+	.button {
+		color: #111d2f !important;
+	}
+	
+	.banner__buttons .button.button--secondary {
+		color: #f4f4f6 !important;
+	}
+	
+	.button.button--secondary:hover {
+		colour: #273242 !important;
+	}
+	
+	.block-multi__item .button {
+		color: #f4f4f6 !important;
+	}
+	
+	.item .item__inner {
+		background-color: #020304 !important;
+	}
+	
+	.background-dark, .ask-a-question {
+		background-color: #111d2f !important;
+	}
+	
+	.banner__info-container .banner__info p {
+		color: #c3c6cb !important;
+	}
+	
+	.site-foot {
+		background-color: #0d1727 !important;
+	}
+}
+
+/*** FONT ***/
+body,
+.button, button, input[type="submit"], input[type="reset"], input[type="button"] {
+	font-family: Navigo, "Helvetica Neue", Helvetica, Arial, "sans-serif";
+}
+
+/*** FONT COLOURS ***/
+/* was #666666 */
+body,
+.site-head .site-head__links li a span,
+.block-callout.block-callout--no-bg .block-callout__text > div p, .block-callout.block-callout--no-bg .block-callout__text > div ul, .block-callout.block-callout--no-bg .block-callout__text > div ol,
+.item .item__inner p,
+.swiper-button-next:before,
+.banner__info-container .banner__info .banner__data-table dt,
+.programme-courses .programme-courses__tabs li a:hover,
+.info-message span,
+.banner__info-container .banner__info .banner__data-table dd a,
+select option,
+.sticky-nav .sticky-nav__desktop.sticky-nav__overflow ul li.current-menu-item a,
+input[type="email"], input[type="search"], input[type="text"], input[type="password"], input[type="date"], input[type="tel"], input[type="number"], textarea, select,
+.form--application .form__block dl dt,
+.programme-courses .programme-courses__tabs li a span,
+.application__info dt,
+.schedule__inner .schedule-item.schedule-item--is-registered:after,
+.block-quote.block-quote--light cite,
+.article .article__head .article__meta p {
+    color: var(--was-666666);
+}
+/* was #333333 */
+h1, h2, h3, h4, h5, h6,
+.block-accordion .accordion .accordion__title a h2, .block-accordion .accordion .accordion__title a h3, .block-accordion .accordion .accordion__title a h4,
+.block-accordion .accordion .accordion__title a h2:after, .block-accordion .accordion .accordion__title a h3:after, .block-accordion .accordion .accordion__title a h4:after,
+.fees .fees__item .fees__course .fees__course-credits,
+.block-multi__item .button,
+.banner__info-container .banner__info .banner__data-table,
+.item .item__inner h3, .item .item__inner h4,
+.course-list .course-list__intro.course-list__intro--with-link .course-list__view-all a:hover,
+.banner__info-container .banner__info .banner__info__title,
+.banner__info-container .banner__info .banner__data-table dt.highlight,
+.button, button, input[type="submit"], input[type="reset"], input[type="button"],
+.sticky-nav ul li a,
+.block-callout.block-callout--no-bg .block-callout__text > div h2, .block-callout.block-callout--no-bg .block-callout__text > div h3, .block-callout.block-callout--no-bg .block-callout__text > div h4, .block-callout.block-callout--no-bg .block-callout__text > div h5, .block-callout.block-callout--no-bg .block-callout__text > div h6,
+.block-checklist .block-checklist__inner:before,
+.block-callout.block-callout--no-bg .block-callout__text .block-callout__link a,
+.programme-courses .programme-courses__tabs li a,
+.fees .fees__item .fees__course .fees__course-name,
+.explore .explore__item a:hover p,
+.button.button--secondary, button.button--secondary, input[type="submit"].button--secondary, input[type="reset"].button--secondary, input[type="button"].button--secondary,
+.button.button--secondary:hover, button.button--secondary:hover, input[type="submit"].button--secondary:hover, input[type="reset"].button--secondary:hover, input[type="button"].button--secondary:hover,
+.article-list .article-list__view-all a .article-list__view-all__inner div .article-list__view-all__icon,
+.article-list .article-list__view-all a .article-list__view-all__inner p,
+.course-list.course-list--has-show-more .course-list__more .course-list__toggle,
+.button.button--outlined, button.button--outlined, input[type="submit"].button--outlined, input[type="reset"].button--outlined, input[type="button"].button--outlined,
+label, .label, legend,
+.login__switch div p,
+.form .form__element.form__element--invalid label .label__optional, .form .form__element.form__element--invalid label,
+.back-link .back-link__link,
+.form--application .form__block .form__block__title,
+.application-accordion .application-accordion__title a h2:after, .application-accordion .application-accordion__title a h3:after,
+.form--application .form__block h3,
+.form--application .form__block dl,
+.application-accordion .application-accordion__content .application-accordion__inner .application__answer,
+[type="radio"] + label,
+.item--course-selection .item__selection .item__selection__inner p,
+.study-history__key > div dt,
+.application__info,
+.learning-table table tr td,
+.schedule__total p,
+.fees .fees__item .fees__variations .fees__variation-item .fees__variation-title,
+.fees.fees--schedule-is-complete .fees__item .fees__item__section p,
+.fees.fees--schedule-is-complete .fees__item .fees__item__section .fees__item__total p:last-of-type,
+.fees.fees--schedule-is-complete .fees__total__item p.fees-cost,
+.item--saved-schedule a .item__inner .item__progress label, .item--saved-schedule a .item__inner .item__progress .item__progress__label,
+.button.button--outlined-white:hover, button.button--outlined-white:hover, input[type="submit"].button--outlined-white:hover, input[type="reset"].button--outlined-white:hover, input[type="button"].button--outlined-white:hover,
+.block-quote.block-quote--light p {
+    color: var(--was-333333);
+}
+.login__switch a:hover {
+    color: var(--was-333333)!important;
+}
+/* was #BBBBBB */
+.site-foot .site-foot__info {
+    color: var(--was-BBBBBB);
+}
+/* was #999999 */
+.nav ul li a:hover {
+    color: var(--was-999999);
+}
+/* was #a36b0c */
+.item .item__inner .item__tax,
+.item--programme .item__arrow span,
+.fees .fees__item .fees__variations .fees__variation-item .fees__variation-cost,
+.form .form__element .form__info p a,
+.item--course-selection .item__inner .item__arrow span,
+.schedule__inner .schedule-item .schedule-item__top p {	
+    color: var(--was-a36b0c);
+}
+/* was #9a6313 */
+.explore .explore__item a h3,
+.item--article a .item__inner .item__tax,
+.study-history__key > div dd {
+    color: var(--was-9a6313);
+}
+/* was #d09b1a */
+.nav .nav__title,
+.nav ul li.current > a,
+.nav ul li.current > a:before,
+.search-form .search-form__inner label,
+.progress.progress--page,
+.item .item__favourite:hover:after, .item .item__favourite.active:after,
+.block-callout__link a .fa-regular,
+.add-to-wishlist button:hover span:first-of-type, .add-to-wishlist button.active span:first-of-type,
+.article-list .article-list__view-all a .article-list__view-all__inner p span,
+.site-head .site-head__links li a.active span,
+.site-head .site-head__links li a span:hover, .site-head .site-head__links li a span:active,
+.application-overview .application-overview__wishlist span,
+.nav.nav--user .nav__sub-title,
+.learning-table table tr td.learning-table__status span.color-gold,
+.fees .fees__button-group .fees__message span,
+.item--notification .item__icon,
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-important .item__tax,
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-unread .item__inner .item__link a,
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-important .item__link a,
+.block-quote blockquote p:before, .block-quote blockquote p:after,
+.sticky-nav .sticky-nav__toggle:after {
+    color: var(--was-d09b1a);
+}
+/* was #6D6D6D */
+.banner__info-container .banner__info p {
+    color: var(--was-6D6D6D);
+}
+/* was #767676 */
+.sticky-nav ul li.active a {
+    color: var(--was-767676);
+}
+/* was #B11B1B */
+.form .form__element.form__element--invalid .field-validation-error {
+    color: var(--was-B11B1B);
+}
+/* was #90c349 - Green */
+.progress.progress--credits {
+	color: var(--was-90c349);
+}
+/* was #0daa55 - Another Green! */
+.programme-courses .programme-courses__progress.programme-courses__progress--is-complete label:after {
+	color: var(--was-0daa55);
+}
+/* was #DDDDD */
+.nav.nav--notifications.notifications .notifications__group .item.item--notification .item__tax {
+	color: var(--was-DDDDDD);
+}
+
+
+
+
+
+
+
+/*** BACKGROUNDS ***/
+/* was #f2f2f2 */
+.background-grey,
+.programme-courses .programme-courses__tabs li a.active,
+.block-accordion .accordion .accordion__title a,
+.related-categories,
+.pie-chart__inner,
+[type="radio"]:hover + label,
+.programme-courses .programme-courses__progress,
+.item--article a .item__inner,
+.background-white .swiper-button-next, .background-white .swiper-button-prev {
+	background: var(--was-f2f2f2);
+}
+/* was #333333 */
+.background-dark,
+.ask-a-question,
+.block-callout__text,
+.button.button--outlined:hover, button.button--outlined:hover, input[type="submit"].button--outlined:hover, input[type="reset"].button--outlined:hover, input[type="button"].button--outlined:hover,
+.announcement.announcement--is-beta,
+[type="radio"]:checked + label,
+.sticky-nav .sticky-nav__toggle {
+	background:var(--was-333333);
+}
+/* was #666666 */
+.announcement,
+.ask-a-question:hover {
+	background:var(--was-666666);
+}
+/* was #1f1f1f */
+.site-foot {
+	background: var(--was-1f1f1f);
+}
+/* was #DDDDDD */
+.swiper-button-next:hover, .swiper-button-prev:hover,
+.related-categories ul li a:hover,
+.background-white .swiper-button-next:hover, .background-white .swiper-button-prev:hover {
+	background: var(--was-DDDDDD);
+}
+/* was #d09b1a */
+.button, button, input[type="submit"], input[type="reset"], input[type="button"],
+.ask-a-question:before {
+	background: var(--was-d09b1a);
+}
+.progress.progress--page::-webkit-progress-value {
+  background-color: var(--was-d09b1a);
+}
+.progress.progress--page::-moz-progress-bar {
+  background-color: var(--was-d09b1a);
+}
+/* was #8c6811 */
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {	
+	background: var(--was-8c6811);
+}
+/* was #b98a17 */
+.ask-a-question:hover:before {	
+	background: var(--was-b98a17);
+}
+/* was #CCCCCC */
+.login__switch a:hover {
+    background: var(--was-CCCCCC)!important;
+}
+/* was #3a3a3a */
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-important {
+    background: var(--was-3a3a3a);
+}
+
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-important
+/* was #90c349 - Green */
+.item--course-selection.item--programme--highlighted .item__selection,
+[type="checkbox"].is-course-select:checked ~ label:before {
+	background-color: var(--was-90c349);
+}
+.progress.progress--credits::-webkit-progress-value {
+  background-color: var(--was-90c349);
+}
+.progress.progress--credits::-moz-progress-bar {
+  background-color: var(--was-90c349);
+}
+
+@media only screen and (max-width: 860px) {
+.sticky-nav ul li a {
+    background: var(--was-4d4d4d);
+    border-bottom: 1px solid var(--was-DDDDDD);
+}
+.sticky-nav ul li a:after {
+    color: var(--was-d09b1a)!important;
+}
+}
+
+
+/* key info buttons - rgba value */
+.button.button--disabled, button.button--disabled, input[type="submit"].button--disabled, input[type="reset"].button--disabled, input[type="button"].button--disabled {
+	/*background:rgba(102, 102, 102, 0.8);*/
+	background:rgba(120, 12, 84, 0.8);
+}
+/* hover state is currently the same but should be something different */
+.button.button--disabled:hover, button.button--disabled:hover, input[type="submit"].button--disabled:hover, input[type="reset"].button--disabled:hover, input[type="button"].button--disabled:hover {
+	/*background:rgba(102, 102, 102, 0.8);*/
+	background:rgba(99, 99, 12, 0.8);
+}
+/* active button has a hover effect and probably shouldn't */
+.button.button--secondary:hover, button.button--secondary:hover, input[type="submit"].button--secondary:hover, input[type="reset"].button--secondary:hover, input[type="button"].button--secondary:hover {
+	/*background:#d9d9d9;
+	border-color:#d9d9d9;*/
+	background:#fff;
+	border-color:#fff;
+}
+
+
+/*** BORDERS ***/
+/* was #DDDDDD */
+.course-list .course-list__intro,
+.explore .explore__title,
+.programme-courses .programme-courses__tabs li a,
+.sticky-nav,
+.article-list .article-list__intro,
+.related-categories ul,
+.item--course-selection .item__selection .item__selection__inner {
+	border-color: var(--was-DDDDDD);
+}
+/* was #666666 */
+.banner__info-container .banner__info .banner__data-table,
+.banner__info-container .banner__info .banner__info__title,
+.banner__info-container .banner__info .banner__data-table dt.has-overline,
+.banner__info-container .banner__info .banner__data-table dd.has-overline,
+.fees .fees__item,
+.fees .fees__item:first-of-type,
+.banner__info-container .banner__info .banner__data-table dd a,
+input[type="email"], input[type="search"], input[type="text"], input[type="password"], input[type="date"], input[type="tel"], input[type="number"], textarea, select,
+.form--application .form__block .form__block__title,
+.form--application.form--application--step-2 .form__block,
+.programme-courses .programme-courses__progress,
+.application__info.application__info--is-course-selection, .application__info.application__info--is-user-area,
+.learning-table table tr th, .learning-table table tr td, 
+.learning-table table tr th:first-of-type, .learning-table table tr td:first-of-type,
+.learning-table table tr th:last-of-type, .learning-table table tr td:last-of-type,
+.schedule__inner .schedule-item,
+.schedule__inner,
+.schedule__total,
+.fees.fees--schedule-is-complete .fees__item .fees__item__section .fees__item__total,
+.fees.fees--schedule-is-complete .fees__total {
+	border-color: var(--was-666666);
+}
+/* was #333333 */
+.course-list .course-list__intro.course-list__intro--with-link .course-list__view-all a:hover,
+.course-list.course-list--has-show-more .course-list__more .course-list__toggle:hover,
+.button.button--outlined, button.button--outlined, input[type="submit"].button--outlined, input[type="reset"].button--outlined, input[type="button"].button--outlined,
+.button.button--outlined:hover, button.button--outlined:hover, input[type="submit"].button--outlined:hover, input[type="reset"].button--outlined:hover, input[type="button"].button--outlined:hover,
+[type="radio"] + label,
+[type="checkbox"].is-course-select ~ label:before {
+	border-color: var(--was-333333);
+}
+/* was #f2f2f2 */ 
+.programme-courses .programme-courses__tabs li a.active {
+	border-color: var(--was-f2f2f2);
+}
+/* was #d09b1a */
+.button, button, input[type="submit"], input[type="reset"], input[type="button"],
+.sticky-nav ul li.active a, .sticky-nav ul li:hover a,
+.banner--home .banner__inner .banner__content > div p.banner__explore-subjects a,
+.block a:not(.button),
+.sticky-nav .sticky-nav__desktop.sticky-nav__overflow ul li.current-menu-item a,
+.announcement .announcement__inner .announcement__message p a,
+.application-overview p a,
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-unread .item__inner .item__link a:hover,
+.nav.nav--notifications.notifications .notifications__group .item.item--notification.item--notification--is-important .item__link a:hover {
+	border-color: var(--was-d09b1a);
+}
+/* was #8c6811 */
+.button:hover, button:hover, input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover,
+.banner--home .banner__inner .banner__content > div p.banner__explore-subjects a:hover,
+.block a:not(.button):hover,
+.announcement .announcement__inner .announcement__message p a:hover {
+	border-color: var(--was-8c6811);
+}
+/* was #404040 */
+.banner__info-container .banner__info .banner__data-table dd a:hover {
+	border-color: var(--was-404040);
+}
+/* was #90c349 - Green */
+.item--course-selection.item--programme--is-selected {
+	border-color: var(--was-90c349);
+}
+
+
+/*** OUTLINES ***/
+/* was #d09b1a */
+[type="search"]:focus-visible {
+	outline-color: var(--was-d09b1a);
+}
+
+/*** BOX SHADOW ***/
+/* was #90c349 - Green */
+.item--course-selection.item--programme--is-selected a:hover {
+    -webkit-box-shadow: 0 -2px 0 2px var(--was-90c349);
+    box-shadow: 0 -2px 0 2px var(--was-90c349);
+}
+
+
+/*** BANNERS ***/
+.banner--has-gradient {
+  background-size: 200% 200%;
+  max-width: 100%;
+  animation: gradient 10s ease infinite;
+  background-color: #00374e;
+  /* fall back for browsers with no gradient support */
+  background-image: linear-gradient(to right top, #00a18c, #008686, #006b7a, #005067, #00374e);
+}
+
+.banner-error {background-color:#24439D;}
+
+/*** Adjustments required - mostly due to font change ***/
+
+/* header, logo and main menu */
+	img.site-head__logo:hover {filter: brightness(.2) invert(.2);}
+	.site-head-has-background img.site-head__logo {filter: brightness(0) invert(1);}
+	.site-head-has-background img.site-head__logo:hover {filter: brightness(.9) invert(.9);}
+	.site-nav-holder {background-color: #273242; display: block; float:right; padding:0 3rem; border-radius:2rem; margin-top:.5rem;}
+	.site-head .site-head__links {padding:1.5rem 0 1rem;}		
+	.site-head .site-head__links li a span {color:#fff;}
+	/* border round notification dot */
+	.site-head .site-head__links li a.user-has-notification:after {border-color:#273242;}
+    
+	/*.breadcrumbs {
+    position: relative;
+    top: inherit;
+    left: inherit;
+}*/
+
+/* quotes */
+.block-quote blockquote p {
+    font-family: Navigo;
+    font-size: 2.2rem;
+}
+.article .article__head h1 {
+    font-family: Navigo;
+    font-weight: 600;
+    margin-bottom: 4.5rem;
+}
+
+/* new logo in header */
+.site-head .site-head__logo {
+    width: 38.5rem;
+}
+
+/* adjust line-height in main menu modal */
+.nav ul li a {
+	line-height: 4.2rem;
+}
+
+/* adjust h4 size in tiles a touch - was 2.0rem */
+.item .item__inner h4 {
+    font-size: 1.9rem;
+}
+
+/* selects have a background image */
+select {
+    background: url(../content/img/icon-caret-down.svg) no-repeat right 1.5rem center;
+    background-size: 1rem 1.4rem;
+}
+
+/* noticed but not covered here (yet) include
+- skip to main content link - rgb bacl and white
+- pie slices - rgb values put in by the js (I think)
+- placeholder text in form elements
+- mobile specific elements
+*/
+
